@@ -9,7 +9,7 @@ public class GitCommitSearch {
 		// TODO Auto-generated method stub
 		//System.out.println("Hello");
 		try {
-		    ProcessBuilder pb = new ProcessBuilder("git","log", "--grep=added");
+		    ProcessBuilder pb = new ProcessBuilder("git","log", "--grep=commit");
 		    pb.redirectErrorStream(true);
 		    Process process = pb.start();
 
